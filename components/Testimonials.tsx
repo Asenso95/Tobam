@@ -47,11 +47,11 @@ export default function Testimonials() {
   };
 
   return (
-    <section aria-labelledby="testimonials-heading" className="py-8 md:py-20">
+    <section aria-labelledby="testimonials-heading" className="py-6 md:py-8 md:py-20">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <h2
           id="testimonials-heading"
-          className="text-center text-3xl font-semibold text-ink sm:text-4xl"
+          className="text-center text-2xl font-bold md:text-3xl md:font-semibold text-ink sm:text-4xl"
         >
           Testimonials
         </h2>
