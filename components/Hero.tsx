@@ -20,7 +20,7 @@ export default function Hero() {
           WHAT WE DO
         </span> */}
         <button className="rounded-[50px] px-12 py-3 bg-[#2c2827] text-sm font-semibold text-white transition-colors hover:bg-[#121212] lg:text-[14px] ">
-          <span>What We Do</span>
+          <span>WHAT WE DO</span>
         </button>
           
 
