@@ -9,7 +9,7 @@ const highlights = [
 
 export default function ManagementDevelopmentProgram() {
   return (
-    <div className="bg-[#f9f9f9] px-4  md:px-16 py-10 ">
+    <div className="bg-[#ccc] px-4  md:px-16 py-10 ">
     <section
       aria-labelledby="management-program-heading"
       className="bg-[#2c0922] py-5 md:p-10 rounded-[20px] lg:max-w-7xl  "
