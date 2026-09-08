@@ -50,8 +50,8 @@ export default function TrainingConsultant() {
           their career advancement.
         </p>
 
-        <div className="bg-[#571244] p-6 rounded-[8px]">
-        <ul className="mt-8 grid gap-6 sm:grid-cols-2">
+        <div className="bg-[#571244] p-6 mt-8 rounded-[8px]">
+        <ul className="grid gap-6 sm:grid-cols-2">
           {cards.map((card, index) => (
             <li
               key={card.title}
