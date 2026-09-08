@@ -19,6 +19,11 @@ export default function FeatureRow({
 }: FeatureRowProps) {
   return (
     <div className="grid items-center gap-8 lg:grid-cols-2 lg:gap-16">
+
+      <h2 className="md:hidden text-2xl font-semibold text-[#151515] sm:text-4xl">
+          {heading}
+        </h2>
+      
       <div className={imageSide === "left" ? "lg:order-1" : "lg:order-2"}>
         <Image src={imageSrc} alt={imageAlt} width={602} height={346}
           className="h-64 w-full rounded-tl-[56px] rounded-tr-[24px] rounded-br-[23px] rounded-bl-[12px]  object-cover sm:h-80 lg:h-[346px] w-[602px]"
@@ -26,7 +31,7 @@ export default function FeatureRow({
       </div>
 
       <div className={imageSide === "left" ? "lg:order-2" : "lg:order-1"}>
-        <h2 className="text-2xl font-semibold text-[#151515] sm:text-4xl">
+        <h2 className="hidden md:block text-2xl font-semibold text-[#151515] sm:text-4xl">
           {heading}
         </h2>
         {description ? (
