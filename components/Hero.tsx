@@ -17,7 +17,7 @@ export default function Hero() {
 
       <div className="mx-auto px-8 flex max-w-4xl flex-col items-center  text-center sm:px-6 sm:py-32 lg:py-40 max-w-6xl md:px-16 py-[112px]">
         {/* <span className="rounded-full border border-white/40 px-4 py-1 text-xs font-medium tracking-wide text-white/90">
-          What We Do
+          WHAT WE DO
         </span> */}
         <button className="rounded-[50px] px-12 py-3 bg-[#2c2827] text-sm font-semibold text-white transition-colors hover:bg-[#121212] lg:text-[14px] ">
           <span>What We Do</span>
