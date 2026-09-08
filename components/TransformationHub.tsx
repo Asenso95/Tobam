@@ -14,7 +14,7 @@ export default function TransformationHub() {
   return (
     <div className="bg-[#f9f9f9] py-2 px-4 md:px-16 py-10 ">
     <section aria-labelledby="transformation-hub-heading"
-      className="bg-[#ef4353]/20 py-0 md:p-10 rounded-[20px] "
+      className="bg-[#ef4353]/20 p-0 md:p-10 rounded-[20px] "
     >
       <div className="mx-auto max-w-6xl px-4 sm:px-0 lg:px-0">
         <p className="text-[20px] italic font-medium text-[#1671d9]">
