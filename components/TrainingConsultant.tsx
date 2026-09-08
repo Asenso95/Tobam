@@ -32,11 +32,11 @@ export default function TrainingConsultant() {
       <div className="mx-auto max-w-6xl md:px-6 lg:px-0 max-w-7xl">
         <h2
           id="training-consultant-heading"
-          className="text-2xl font-semibold text-[#571244] sm:text-3xl lg:text-[40px]"
+          className="text-2xl font-bold md:font-semibold text-[#571244] sm:text-3xl lg:text-[40px]"
         >
           Training The Consultant
         </h2>
-        <p className="mt-2 text-lg font:bold md:font-semibold text-[#571244] sm:text-base lg:text-[18px]">
+        <p className="mt-2 text-lg font-bold md:font-semibold text-[#571244] sm:text-base lg:text-[18px]">
           Maximise Your Potential as a Certified Trainer:
         </p>
         <p className="mt-4 max-w-2xl text-sm leading-relaxed text-[#151515] sm:text-base max-w-7xl">
