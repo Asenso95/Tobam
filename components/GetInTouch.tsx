@@ -3,6 +3,7 @@ import Link from "next/link";
 
 export default function GetInTouch() {
   return (
+    <div className="bg-[#f2f2f2] pt-6 md:pt-10 ">
     <section aria-labelledby="get-in-touch-heading" className="relative isolate overflow-hidden bg-[#1d0617]">
       {/* <Image
         src="/get-in-touch-bg.svg"
@@ -32,5 +33,6 @@ export default function GetInTouch() {
         </Link>
       </div>
     </section>
+    </div>
   );
 }
