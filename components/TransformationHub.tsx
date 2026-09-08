@@ -12,7 +12,7 @@ const topics = [
 
 export default function TransformationHub() {
   return (
-    <div className="bg-[#f9f9f9] py-4 px-4 md:px-16 md:py-10 ">
+    <div className="bg-[#f9f9f9] py-5 px-4 md:px-16 md:py-10 ">
     <section aria-labelledby="transformation-hub-heading"
       className="bg-[#ef4353]/20 py-5 md:p-10 rounded-[20px] "
     >
