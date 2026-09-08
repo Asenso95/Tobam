@@ -14,11 +14,11 @@ const courses = [
 
 export default function LearningManagementSystem() {
   return (
-    <section aria-labelledby="lms-heading" className="mt-8 bg-[#e9e2e7] py-8 px-1 md:py-12 md:px-8"
+    <section aria-labelledby="lms-heading" className="mt-8 bg-[#e9e2e7] py-6 px-1 md:py-12 md:px-8"
     >
       <div className="mx-auto grid max-w-6xl items-center gap-2 px-4 md:gap-10 px-6 lg:grid-cols-[2fr_3fr] lg:gap-[80px] lg:px-8 max-w-7xl">
         
-          <h2 id="lms-heading" className="md:hidden text-2xl mb-4 text-center font-semibold text-[#571244]"
+          <h2 id="lms-heading" className="md:hidden text-xl mb-4 text-center font-bold text-[#571244]"
           >
             Learning Management System
           </h2>
