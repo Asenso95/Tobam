@@ -11,7 +11,7 @@ const bullets = [
 
 export default function PersonalizedTraining() {
   return (
-    <section aria-labelledby="individual-training-heading" className=" py-4 md:py-10"
+    <section aria-labelledby="individual-training-heading" className=" py-0 md:py-10"
     >
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 max-w-7xl">
         <h2 id="individual-training-heading" className="sr-only">
