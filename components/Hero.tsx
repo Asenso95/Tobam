@@ -15,7 +15,7 @@ export default function Hero() {
       />
       <div className="absolute inset-0 -z-10 bg-black/70" />
 
-      <div className="mx-auto px-8 flex max-w-4xl flex-col items-center  text-center sm:px-6 sm:py-32 lg:py-40 max-w-6xl md:px-16 py-[12px] "> {/*py-[112px]*/}
+      <div className="mx-auto px-8 flex max-w-4xl flex-col items-center  text-center sm:px-6 sm:py-32 lg:py-40 max-w-6xl md:px-16 py-12px "> {/*py-[112px]*/}
         {/* <span className="rounded-full border border-white/40 px-4 py-1 text-xs font-medium tracking-wide text-white/90">
           WHAT WE DO
         </span> */}
