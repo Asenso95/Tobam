@@ -17,7 +17,7 @@ export default function TransformationHub() {
       className="bg-[#ef4353]/20 py-5 md:p-10 rounded-[20px] "
     >
       <div className="mx-auto max-w-6xl px-4 sm:px-0 lg:px-0">
-        <p className="text-sm font-semibold md:text-[20px] md:italic md:font-medium text-[#1671d9]">
+        <p className="text-sm font-bold md:text-[20px] md:italic md:font-medium text-[#1671d9]">
           Learning With Our CEO:
         </p>
         <h2
