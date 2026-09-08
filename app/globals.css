@@ -16,11 +16,15 @@
   html {
     scroll-behavior: smooth;
 
-    overflow-x: hidden !important 
+    overflow-x: hidden !important; 
+    max-width: 100%; /*max-width: 100% — safety net so an image can never exceed its container's width even if something else goes wrong */
   }
 
   body {
     color: var(--color-ink);
+    
+    overflow-x: hidden !important;
+    max-width: 100%;
   }
 
   a,
