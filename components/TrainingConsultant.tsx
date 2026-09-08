@@ -36,8 +36,8 @@ export default function TrainingConsultant() {
         >
           Training The Consultant
         </h2>
-        <p className="mt-2 text-sm font-semibold text-brand-pink sm:text-base lg:text-[18px]">
-          Maximise Your Potential as a Certified Trainer
+        <p className="mt-2 text-base font-semibold text-[#571244] lg:text-[18px]">
+          Maximise Your Potential as a Certified Trainer:
         </p>
         <p className="mt-4 max-w-2xl text-sm leading-relaxed text-[#151515] sm:text-base max-w-7xl">
           With the help of our Training Consultants program, take a
