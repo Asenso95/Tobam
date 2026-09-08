@@ -42,10 +42,10 @@ AI assistance (Claude) was used in building this project:
 - The initial project foundation — folder structure, App Router setup,
   component breakdown, semantic HTML layout, and Tailwind styling — was
   scaffolded with AI assistance based on the provided Figma reference
-  and design, to get a working baseline quickly.
+  and design to get a working baseline quickly.
 - AI was used to convert specific Figma design values (spacing, colors,
   typography) into their Tailwind utility class equivalents.
-- From that foundation, I reviewed the code, made adjustments, and
+- From that foundation, I reviewed the code, made adjustments and
   built out the remaining functionality (including the mobile
-  navigation drawer, the testimonials slider behavior, and the final
+  navigation drawer, the testimonials slider behaviorand the final
   deployment) myself.
