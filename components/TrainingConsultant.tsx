@@ -36,7 +36,7 @@ export default function TrainingConsultant() {
         >
           Training The Consultant
         </h2>
-        <p className="mt-2 text-base font-semibold text-[#571244] lg:text-[18px]">
+        <p className="mt-2 text-lg font:bold md:font-semibold text-[#571244] sm:text-base lg:text-[18px]">
           Maximise Your Potential as a Certified Trainer:
         </p>
         <p className="mt-4 max-w-2xl text-sm leading-relaxed text-[#151515] sm:text-base max-w-7xl">
@@ -50,12 +50,12 @@ export default function TrainingConsultant() {
           their career advancement.
         </p>
 
-        <div className="bg-[#571244] rounded-[8px]">
-        <ul className="mt-8 grid gap-0 sm:grid-cols-2">
-          {cards.map((card) => (
+        <div className="bg-[#571244] p-6 rounded-[8px]">
+        <ul className="mt-8 grid gap-6 sm:grid-cols-2">
+          {cards.map((card, index) => (
             <li
               key={card.title}
-              className=" p-6 text-white"
+              className="text-white"
             >
               <p className="font-bold">{card.title}</p>
               <p className="mt-2 text-sm text-white/70">{card.description}</p>
