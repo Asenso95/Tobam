@@ -12,7 +12,7 @@ export default function ManagementDevelopmentProgram() {
     <div className="bg-[#f9f9f9] px-4 py:0 md:px-16 py-10 ">
     <section
       aria-labelledby="management-program-heading"
-      className="bg-[#2c0922] py-2 md:p-10 rounded-[20px] lg:max-w-7xl  "
+      className="bg-[#2c0922] py-5 md:p-10 rounded-[20px] lg:max-w-7xl  "
     >
 
         <h2
