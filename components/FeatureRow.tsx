@@ -20,7 +20,7 @@ export default function FeatureRow({
   return (
     <div className="grid items-center gap-4 lg:grid-cols-2 lg:gap-16">
 
-      <h2 className="md:hidden text-xl font-semibold text-[#151515] sm:text-4xl">
+      <h2 className="md:hidden text-xl font-bold text-[#151515] sm:text-4xl">
           {heading}
         </h2>
       
