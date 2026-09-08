@@ -17,12 +17,12 @@ export default function TransformationHub() {
       className="bg-[#ef4353]/20 py-5 md:p-10 rounded-[20px] "
     >
       <div className="mx-auto max-w-6xl px-4 sm:px-0 lg:px-0">
-        <p className="text-[20px] italic font-medium text-[#1671d9]">
-          Learning With Our CEO
+        <p className="text-sm font-semibold md:text-[20px] md:italic md:font-medium text-[#1671d9]">
+          Learning With Our CEO:
         </p>
         <h2
           id="transformation-hub-heading"
-          className="mt-1 text-2xl leading-[130%] font-semibold italic text-[#571244] sm:text-[32px]"
+          className="mt-1 text-xl leading-[130%] font-semibold italic text-[#571244] md:text-[32px]"
         >
           Transformation Hub With Jite Newton
         </h2>
