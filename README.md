@@ -47,5 +47,5 @@ AI assistance (Claude) was used in building this project:
   typography) into their Tailwind utility class equivalents.
 - From that foundation, I reviewed the code, made adjustments and
   built out the remaining functionality (including the mobile
-  navigation drawer, the testimonials slider behaviorand the final
+  navigation drawer, the testimonials slider behavior and the final
   deployment) myself.
