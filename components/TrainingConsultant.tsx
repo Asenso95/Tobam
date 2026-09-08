@@ -27,7 +27,7 @@ const cards = [
 
 export default function TrainingConsultant() {
   return (
-    <div className="bg-[#f2f2f2] py-6 md:pt-10 ">
+    <div className="bg-[#f2f2f2] pt-6 md:pt-10 ">
     <section aria-labelledby="training-consultant-heading" className="py-8 px-4 md:py-12 md:px-16 bg-[#e9e2e7]">
       <div className="mx-auto max-w-6xl md:px-6 lg:px-0 max-w-7xl">
         <h2
