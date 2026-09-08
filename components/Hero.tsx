@@ -37,7 +37,7 @@ export default function Hero() {
         </p>
         <Link
           href="/book-a-consultation"
-          className="mt-8 rounded bg-[#571244] px-6 py-3  font-semibold text-white transition-colors hover:bg-white hover:text-brand-maroon lg:text-[18px]"
+          className="mt-6 md:mt-8 rounded bg-[#571244] px-6 py-3  font-semibold text-white transition-colors hover:bg-white hover:text-brand-maroon lg:text-[18px]"
         >
           Book a Consultation
         </Link>
