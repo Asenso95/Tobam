@@ -62,8 +62,6 @@ export default function LearningManagementSystem() {
             ))}
           </ul>
 
-          </div>
-
 
           <Link href="/tg-academy">
           <button className="mt-6 flex items-center gap-2 rounded-lg px-4 py-2 bg-[#571244]  text-sm font-semibold text-white transition-colors hover:bg-brand-maroon">
@@ -73,6 +71,11 @@ export default function LearningManagementSystem() {
             </span>
           </button>
           </Link>
+
+          </div>
+
+
+          
         
         </div>
       </div>
