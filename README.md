@@ -34,3 +34,18 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## AI tooling disclosure
+
+AI assistance (Claude) was used in building this project:
+
+- The initial project foundation — folder structure, App Router setup,
+  component breakdown, semantic HTML layout, and Tailwind styling — was
+  scaffolded with AI assistance based on the provided Figma reference
+  and design, to get a working baseline quickly.
+- AI was used to convert specific Figma design values (spacing, colors,
+  typography) into their Tailwind utility class equivalents.
+- From that foundation, I reviewed the code, made adjustments, and
+  built out the remaining functionality (including the mobile
+  navigation drawer, the testimonials slider behavior, and the final
+  deployment) myself.
