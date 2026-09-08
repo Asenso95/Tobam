@@ -16,7 +16,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Training and Development | Tobams Group",
+  title: "Tobams Group | Training and Development",
   description:
     "Tobams Group's comprehensive range of training programs and resources designed to enhance skills, broaden knowledge, and propel careers forward.",
 };
