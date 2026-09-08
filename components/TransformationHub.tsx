@@ -37,14 +37,14 @@ export default function TransformationHub() {
           potential and drive success in your endeavours.
         </p>
 
-        <div className="mt-8 grid gap-8 lg:grid-cols-2 items-start gap-8 ">
+        <div className="mt-6 md:mt-8 grid gap-8 lg:grid-cols-2 items-start gap-8 ">
           <div className="min-h-0">
           <Image src="/transformation.jpg" alt="Dr. Jite Newton presenting during a Transformation Hub webinar"
             width={560} height={340} className="h-64 w-full rounded-[8px] object-cover sm:h-80 lg:h-[100%] max-h-[310px]"
           />
           </div>
 
-          <div className="py-8 px-5 bg-[#ffffff]/20 rounded-[8px]">
+          <div className="py-6 md:py-8 px-5 bg-[#ffffff]/20 rounded-[8px]">
             <ul className="grid grid-cols-1 gap-3 text-sm text-ink sm:grid-cols-2 gap-x-6">
               {topics.map((topic) => (
                 <li key={topic} className="flex items-start gap-2 bg-[#ffffff] rounded-[12px] p-4">
