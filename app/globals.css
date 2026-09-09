@@ -13,6 +13,7 @@
 }
 
 @layer base {
+  /* browser's real "scrolling element" (the one that actually owns the page's vertical scrollbar) is <html> */
   html {
     scroll-behavior: smooth;
 
