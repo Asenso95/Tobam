@@ -26,20 +26,23 @@ export default function Navbar() {
  const prevScroll = useRef(0)
 
 
+// Scroll Lock regardless of which element controls scroll
+ useEffect(() => {
+  const root = document.documentElement; // <html>
 
- useEffect(()=>{
-  if(isMenuOpen){
-    document.body.classList.add("overflow-hidden")
-  }else{
-    document.body.classList.remove("overflow-hidden")
+  if (isMenuOpen) {
+    root.classList.add("overflow-hidden");
+    document.body.classList.add("overflow-hidden");
+  } else {
+    root.classList.remove("overflow-hidden");
+    document.body.classList.remove("overflow-hidden");
   }
 
-  return()=>{
-    document.body.classList.remove("overflow-hidden")
-  }
-
- }, [isMenuOpen])
-
+  return () => {
+    root.classList.remove("overflow-hidden");
+    document.body.classList.remove("overflow-hidden");
+  };
+}, [isMenuOpen]);
 
 
  useEffect(() => {
