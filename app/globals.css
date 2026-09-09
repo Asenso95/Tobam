@@ -28,6 +28,13 @@
    /* max-width: 100%; */
   }
 
+
+  img {
+    /*For alt text*/
+    overflow-wrap: anywhere;
+    word-break: break-word;
+  }
+
    
   
   a,
