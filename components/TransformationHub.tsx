@@ -38,7 +38,7 @@ export default function TransformationHub() {
         </p>
 
         <div className="mt-6 md:mt-8 grid gap-6 lg:grid-cols-2 items-start md:gap-8 ">
-          <div className="min-h-0">
+          <div className="min-h-0 overflow-hidden">
           <Image src="/transformation.jpg" alt="Dr. Jite Newton presenting during a Transformation Hub webinar"
             width={560} height={340} className="h-64 w-full rounded-[8px] object-cover sm:h-80 lg:h-[100%] max-h-[310px]"
           />
