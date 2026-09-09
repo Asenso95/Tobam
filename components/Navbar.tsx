@@ -28,6 +28,9 @@ export default function Navbar() {
 
 // Scroll Lock regardless of which element controls scroll
  useEffect(() => {
+   // This is genuinely the standard, defensive way scroll-lock is implemented in production apps for exactly this reason — targeting only body is a common gotcha once html/body have their own overflow rules in play. 
+   // Locking both removes the ambiguity about which one the browser considers "the" scrolling element, 
+   // so it works consistently regardless of that browser-level detail.
   const root = document.documentElement; // <html>
 
   if (isMenuOpen) {
