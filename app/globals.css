@@ -27,6 +27,14 @@
     max-width: 100%;
   }
 
+  img {
+  overflow: hidden;
+  max-width: 100%;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  }  /* overflow-wrap: anywhere / word-break: break-word — belt-and-suspenders: 
+  if any text does render, it wraps instead of staying on one long unbroken line. */
+
   a,
   button {
     outline-offset: 2px;
